@@ -1,0 +1,92 @@
+"C:\Program Files\Java\jdk-23\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\lib\idea_rt.jar=63288:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\Rajesh\Desktop\Workspace\Java-Development\Java8_features\target\classes org.rajesh.second.insurance.Q1
+
+1. Filter policies > $1200:
+PolicyNumber: P001, HolderName: John Smith, PremiumAmount: $1500.0
+PolicyNumber: P003, HolderName: Bob Brown, PremiumAmount: $2200.0
+PolicyNumber: P004, HolderName: Charlie Davis, PremiumAmount: $1750.0
+PolicyNumber: P005, HolderName: Eve Adams, PremiumAmount: $2500.0
+PolicyNumber: P006, HolderName: Smithson Turner, PremiumAmount: $1250.0
+
+2. Sort policies by holder name:
+PolicyNumber: P002, HolderName: Alice Johnson, PremiumAmount: $950.0
+PolicyNumber: P003, HolderName: Bob Brown, PremiumAmount: $2200.0
+PolicyNumber: P004, HolderName: Charlie Davis, PremiumAmount: $1750.0
+PolicyNumber: P005, HolderName: Eve Adams, PremiumAmount: $2500.0
+PolicyNumber: P001, HolderName: John Smith, PremiumAmount: $1500.0
+PolicyNumber: P006, HolderName: Smithson Turner, PremiumAmount: $1250.0
+
+3. Compute total premium:
+Total Premium: $10150.0
+
+4. Print policy details:
+PolicyNumber: P001, HolderName: John Smith, PremiumAmount: $1500.0
+PolicyNumber: P002, HolderName: Alice Johnson, PremiumAmount: $950.0
+PolicyNumber: P003, HolderName: Bob Brown, PremiumAmount: $2200.0
+PolicyNumber: P004, HolderName: Charlie Davis, PremiumAmount: $1750.0
+PolicyNumber: P005, HolderName: Eve Adams, PremiumAmount: $2500.0
+PolicyNumber: P006, HolderName: Smithson Turner, PremiumAmount: $1250.0
+
+5. Filter policies between $1000 and $2000:
+PolicyNumber: P001, HolderName: John Smith, PremiumAmount: $1500.0
+PolicyNumber: P004, HolderName: Charlie Davis, PremiumAmount: $1750.0
+PolicyNumber: P006, HolderName: Smithson Turner, PremiumAmount: $1250.0
+
+6. Find policy with highest premium:
+PolicyNumber: P005, HolderName: Eve Adams, PremiumAmount: $2500.0
+
+7. Group policies by holder name initial:
+A: [PolicyNumber: P002, HolderName: Alice Johnson, PremiumAmount: $950.0]
+B: [PolicyNumber: P003, HolderName: Bob Brown, PremiumAmount: $2200.0]
+S: [PolicyNumber: P006, HolderName: Smithson Turner, PremiumAmount: $1250.0]
+C: [PolicyNumber: P004, HolderName: Charlie Davis, PremiumAmount: $1750.0]
+E: [PolicyNumber: P005, HolderName: Eve Adams, PremiumAmount: $2500.0]
+J: [PolicyNumber: P001, HolderName: John Smith, PremiumAmount: $1500.0]
+
+8. Compute average premium:
+Average Premium: $1691.6666666666667
+
+9. Sort policies by premium and print:
+PolicyNumber: P002, HolderName: Alice Johnson, PremiumAmount: $950.0
+PolicyNumber: P006, HolderName: Smithson Turner, PremiumAmount: $1250.0
+PolicyNumber: P001, HolderName: John Smith, PremiumAmount: $1500.0
+PolicyNumber: P004, HolderName: Charlie Davis, PremiumAmount: $1750.0
+PolicyNumber: P003, HolderName: Bob Brown, PremiumAmount: $2200.0
+PolicyNumber: P005, HolderName: Eve Adams, PremiumAmount: $2500.0
+
+10. Check if any policy exceeds $2000:
+Any policy > $2000? true
+
+11. Count policies for each premium range:
+$0-$1000: 1
+$1001-$2000: 3
+>$2000: 2
+
+12. Extract unique holder names:
+John Smith
+Alice Johnson
+Bob Brown
+Charlie Davis
+Eve Adams
+Smithson Turner
+
+13. Find policies by holder name containing 'Smith':
+PolicyNumber: P001, HolderName: John Smith, PremiumAmount: $1500.0
+PolicyNumber: P006, HolderName: Smithson Turner, PremiumAmount: $1250.0
+
+14. Create map of policy numbers to premium amounts:
+P005 => $2500.0
+P004 => $1750.0
+P006 => $1250.0
+P001 => $1500.0
+P003 => $2200.0
+P002 => $950.0
+
+15. Most frequent words in text corpus:
+java: 3
+streams: 2
+hello: 2
+
+16. Find second most repeated word:
+Second most frequent word: streams (2 times)
+
+Process finished with exit code 0
