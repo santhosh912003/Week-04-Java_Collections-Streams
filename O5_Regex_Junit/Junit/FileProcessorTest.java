@@ -18,7 +18,7 @@ class FileProcessorTest {
     @AfterEach
     void cleanup() {
         File file = new File(testFile);
-        if (file.exists()) file.delete();  // Clean up after each test
+        if (file.exists()) file.delete();  
     }
 
     @Test
