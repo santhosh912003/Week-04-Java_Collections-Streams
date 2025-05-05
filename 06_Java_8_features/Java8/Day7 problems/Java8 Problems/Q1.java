@@ -1,4 +1,4 @@
-package org.rajesh;
+
 import java.util.*;
 import java.util.stream.*;
 
